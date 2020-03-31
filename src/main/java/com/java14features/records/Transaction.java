@@ -1,6 +1,5 @@
 package com.java14features.records;
 
-import java.util.Date;
 import java.util.Objects;
 
 public record Transaction(int id, double amount, String description) {
