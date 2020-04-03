@@ -41,5 +41,29 @@ public class Example1 {
                        WHERE `CITY` = 'INDIANAPOLIS' 
                        ORDER BY `EMP_ID`, `LAST_NAME`; 
                    """;
+    //JSON Example
+    String json= """
+                {
+                  "amount": {
+                    "currency": "string",
+                    "value": 0
+                  },
+                  "creditorAccount": {
+                    "accountName": "string",
+                    "accountNumber": "string",
+                    "sortCode": "string"
+                  },
+                  "debtorAccount": {
+                    "accountName": "string",
+                    "accountNumber": "string",
+                    "sortCode": "string"
+                  },
+                  "paymentDate": "string",
+                  "paymentEndDate": "string",
+                  "paymentFrequency": "WEEKLY",
+                  "paymentRequestChannel": "TelephoneBanking",
+                  "reference": "string"
+                }
+                 """;
   }
 }
