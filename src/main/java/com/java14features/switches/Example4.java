@@ -1,11 +1,8 @@
 package com.java14features.switches;
 
 import static com.java14features.enums.Days.FRIDAY;
-import static com.java14features.enums.Days.MONDAY;
-import static com.java14features.enums.Days.TUESDAY;
 
 import com.java14features.enums.Days;
-import com.java14features.enums.VehicleType;
 
 public class Example4 {
 
