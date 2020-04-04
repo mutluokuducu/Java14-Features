@@ -12,7 +12,6 @@ public class Example1 {
   public static void main(String[] args) {
 
     Account account =new Account();
-
     String  accountNumber=account.getAmount().getCurrency();
     System.out.println(accountNumber.length());
 

@@ -9,15 +9,15 @@ public class Example2 {
      */
     Object obj = "Hello Java14";
 
-    if (obj instanceof String s && s.length() > 4) {
-      System.out.println("String: " + s);
+    if (obj instanceof String t && t.length() > 4) {
+      System.out.println("String: " + t);
     }
 
     /*
-    Cannot resolve symbol 's'
+    Cannot resolve symbol 't'
 
-    if(obj instanceof String s || s.length()>4){
-      System.out.println("String: "+s);
+    if(obj instanceof String t || t.length()>4){
+      System.out.println("String: "+t);
     }
      */
   }

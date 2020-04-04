@@ -36,6 +36,7 @@ public class Example1 {
                    "WHERE `CITY` = 'INDIANAPOLIS'\n" +
                    "ORDER BY `EMP_ID`, `LAST_NAME`;\n";
 
+    //  Text Block multi line (paragraph)
     String query1 = """ 
                        SELECT `EMP_ID`, `LAST_NAME` FROM `EMPLOYEE_TB` 
                        WHERE `CITY` = 'INDIANAPOLIS' 
@@ -43,27 +44,24 @@ public class Example1 {
                    """;
     //JSON Example
     String json= """
-                {
-                  "amount": {
-                    "currency": "string",
-                    "value": 0
-                  },
-                  "creditorAccount": {
-                    "accountName": "string",
-                    "accountNumber": "string",
-                    "sortCode": "string"
-                  },
-                  "debtorAccount": {
-                    "accountName": "string",
-                    "accountNumber": "string",
-                    "sortCode": "string"
-                  },
-                  "paymentDate": "string",
-                  "paymentEndDate": "string",
-                  "paymentFrequency": "WEEKLY",
-                  "paymentRequestChannel": "TelephoneBanking",
-                  "reference": "string"
-                }
+                  {
+                    "amount": {
+                      "currency": "string",
+                      "value": 0
+                    },
+                    "creditorAccount": {
+                      "accountName": "string",
+                      "accountNumber": "string",
+                      "sortCode": "string"
+                    },
+                    "debtorAccount": {
+                      "accountName": "string",
+                      "accountNumber": "string",
+                      "sortCode": "string"
+                    },
+                    "paymentDate": "string",
+                    "reference": "string"
+                  }
                  """;
   }
 }

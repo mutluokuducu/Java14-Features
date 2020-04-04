@@ -40,10 +40,6 @@ public record Transaction(int id, double amount, String description) {
 }
 
 
-
-
-
-
 /*
 Before java 14
 public class Transaction {

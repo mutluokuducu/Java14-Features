@@ -6,7 +6,10 @@ public class Example2 {
 
     /*
       String text = """"""; // illegal text block start
-      String text  = """ """; // illegal text block start
+      String text = """ """; // illegal text block start
+      String text  = """
+                     """; // illegal text block start
+
      * line-terminator) denoted by \
      * white space (single space) denoted by /s.
      * Parameter using %s
